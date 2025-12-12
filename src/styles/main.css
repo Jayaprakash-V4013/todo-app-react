@@ -1,0 +1,122 @@
+body h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px !important;
+    margin-bottom: 15px !important;
+}
+
+body p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    margin: 5px 0 15px 0 !important;
+}
+
+.todo-header {
+    background-color: #282c34;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+body input, select, textarea, button {
+    padding: 10px;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-right: 8px;
+}
+
+.filter-section {
+    margin: 20px 100px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addtodo-item-form {
+    min-height: 100vh;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.addtodo-item-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+
+.addtodo-item-form form h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-element-div {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.addtodo-item-form form .form-element-div label {
+    margin-bottom: 8px;
+    align-self: flex-start;
+}
+
+.addtodo-item-form form .form-element-div input,
+.addtodo-item-form form .form-element-div textarea,
+.addtodo-item-form form .form-element-div select {
+    width: 100%;
+    margin-right: 0px !important;
+}
+
+.addtodo-item-form form button {
+    margin-top: 15px;
+}
+
+.todo-error-txt {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    align-self: flex-start;
+}
+
+.toDo-list-comp {
+    margin: 20px 100px;
+}
+
+.todo-list {
+    margin-top: 50px;
+}
+
+.todo-list .row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 15px;
+}
+
+.todo-list .todo-item {
+    background-color: rgb(230, 62, 62);
+    padding: 10px;
+    border-radius: 8px;
+}
+.dummy-element-item {
+    background-color: #151e31;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todo-list-action-div {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-item-btn {
+    min-width: 75px;
+}
